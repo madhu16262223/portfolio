@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Gurumadhu Kakarla – B.Tech Student | Machine Learning | Web Development | AI Researcher. Explore my projects, internships, and skills." />
+    <title>Gurumadhu Kakarla | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===== PARTICLES BACKGROUND ===== -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+        <div class="nav-logo">GK<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#internships" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta" id="nav-hire-btn">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Open to Opportunities
+            </div>
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Gurumadhu<br /><span class="gradient-text">Kakarla</span></h1>
+            <div class="hero-roles">
+                <span class="role-prefix">I build</span>
+                <span class="typed-text" id="typed"></span>
+                <span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-tagline">
+                B.Tech Student • Machine Learning Enthusiast • AI Researcher<br />
+                Building the future with <span class="highlight">SmartAgent AI</span> & <span
+                    class="highlight">n8n</span>
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary" id="view-work-btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline" id="contact-btn">Let's Talk</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num">3+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">2</span>
+                    <span class="stat-label">Internships</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">7.5</span>
+                    <span class="stat-label">CGPA</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="avatar-container">
+                <div class="avatar-ring ring-1"></div>
+                <div class="avatar-ring ring-2"></div>
+                <div class="avatar-ring ring-3"></div>
+                <div class="avatar-glow"></div>
+                <img src="profile.png" alt="Gurumadhu Kakarla" class="avatar-img" id="profile-img" />
+                <div class="avatar-badge-ml">
+                    <span>🤖</span> ML
+                </div>
+                <div class="avatar-badge-web">
+                    <span>🌐</span> Web
+                </div>
+                <div class="avatar-badge-ai">
+                    <span>✨</span> AI
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <div class="scroll-dot"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Who I Am</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate <strong>3rd Year B.Tech student</strong> at Rajeev Gandhi Memorial College of
+                        Engineering and Technology, driven by a deep curiosity for Machine Learning, Web Development,
+                        and Data Analytics.
+                    </p>
+                    <p class="about-body">
+                        My journey spans building real-world ML systems for traffic safety, designing intuitive learning
+                        platforms, and now pushing the boundaries of AI with my flagship research project —
+                        <strong>SmartAgent: Chain-of-User-Thoughts</strong> for embodied AI personalization in the
+                        cyber-world. I also work with <strong>n8n</strong> automation workflows to bridge intelligence
+                        and automation.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🎓</div>
+                            <div>
+                                <strong>B.Tech CSE</strong>
+                                <span>RGMCET, Nandyal</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">📍</div>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Nandyal, Andhra Pradesh</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🔬</div>
+                            <div>
+                                <strong>Research Focus</strong>
+                                <span>Embodied AI & Automation</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">⚡</div>
+                            <div>
+                                <strong>Current Status</strong>
+                                <span>Building SmartAgent + n8n Flows</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-links">
+                        <a href="https://www.linkedin.com/in/guru-madhu-kakarla-065979324" target="_blank"
+                            class="social-pill" id="linkedin-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/madhu16262223" target="_blank" class="social-pill" id="github-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="about-education">
+                    <div class="edu-card glass-card">
+                        <div class="edu-icon">🏛️</div>
+                        <div class="edu-details">
+                            <h3>B.Tech in Computer Science</h3>
+                            <p class="edu-college">Rajeev Gandhi Memorial College of Engineering and Technology</p>
+                            <div class="edu-meta">
+                                <span class="edu-year">3rd Year (Pursuing)</span>
+                                <span class="edu-cgpa">CGPA: 7.5 ⭐</span>
+                            </div>
+                        </div>
+                        <div class="edu-glow"></div>
+                    </div>
+                    <div class="current-focus glass-card">
+                        <h4>🔥 Currently Building</h4>
+                        <div class="focus-item">
+                            <div class="focus-dot"></div>
+                            <div>
+                                <strong>SmartAgent: Chain-of-User-Thoughts</strong>
+                                <p>Embodied AI personalization through cyber-world environments</p>
+                            </div>
+                        </div>
+                        <div class="focus-item">
+                            <div class="focus-dot focus-dot-green"></div>
+                            <div>
+                                <strong>n8n Automation Workflows</strong>
+                                <p>Building intelligent automation pipelines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- SmartAgent Project (Featured) -->
+                <div class="project-card project-featured glass-card" id="project-smartagent">
+                    <div class="project-featured-badge">🌟 Flagship Project</div>
+                    <div class="project-header">
+                        <div class="project-icon-lg">🤖</div>
+                        <div class="project-tags">
+                            <span class="tag tag-ai">AI Research</span>
+                            <span class="tag tag-ml">Machine Learning</span>
+                            <span class="tag tag-live">In Progress</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">SmartAgent: Chain-of-User-Thoughts</h3>
+                    <p class="project-desc">
+                        A cutting-edge AI research project focused on <strong>embodied AI personalization</strong>
+                        through the cyber-world. Implements a chain-of-thought reasoning framework where the AI agent
+                        builds a dynamic model of the user's thinking patterns, preferences, and goals — enabling deeply
+                        personalized interactions across digital environments.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">LLM</span>
+                        <span class="tech-pill">n8n</span>
+                        <span class="tech-pill">Embodied AI</span>
+                        <span class="tech-pill">Automation</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-val">CoUT</span>
+                            <span class="metric-label">Framework</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-val">AI</span>
+                            <span class="metric-label">Personalized</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-val">2026</span>
+                            <span class="metric-label">Active</span>
+                        </div>
+                    </div>
+                    <div class="project-glow"></div>
+                </div>
+
+                <!-- Helmet Detection -->
+                <div class="project-card glass-card" id="project-helmet">
+                    <div class="project-header">
+                        <div class="project-icon">🪖</div>
+                        <div class="project-tags">
+                            <span class="tag tag-ml">Machine Learning</span>
+                            <span class="tag tag-cv">Computer Vision</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Helmet Detection for Safety</h3>
+                    <p class="project-desc">
+                        A machine learning–based system to detect helmet usage in real-time for traffic safety
+                        applications. Built as a mini-project in the traffic safety domain using computer vision
+                        techniques.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">OpenCV</span>
+                        <span class="tech-pill">YOLOv8</span>
+                        <span class="tech-pill">Deep Learning</span>
+                    </div>
+                    <a href="https://github.com/madhu16262223" target="_blank" class="project-link"
+                        id="helmet-github-btn">
+                        View on GitHub →
+                    </a>
+                    <div class="project-glow"></div>
+                </div>
+
+                <!-- Learning Path Web App -->
+                <div class="project-card glass-card" id="project-learning">
+                    <div class="project-header">
+                        <div class="project-icon">📚</div>
+                        <div class="project-tags">
+                            <span class="tag tag-web">Frontend</span>
+                            <span class="tag tag-ux">UX Design</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Learning Path Web Application</h3>
+                    <p class="project-desc">
+                        Designed and developed a frontend-based learning path platform that guides users through
+                        structured web development learning journeys. Built with intuitive UI/UX for progressive skill
+                        building.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-pill">HTML</span>
+                        <span class="tech-pill">CSS</span>
+                        <span class="tech-pill">JavaScript</span>
+                        <span class="tech-pill">Responsive Design</span>
+                    </div>
+                    <a href="https://github.com/madhu16262223" target="_blank" class="project-link"
+                        id="learning-github-btn">
+                        View on GitHub →
+                    </a>
+                    <div class="project-glow"></div>
+                </div>
+
+                <!-- n8n Automation -->
+                <div class="project-card glass-card" id="project-n8n">
+                    <div class="project-header">
+                        <div class="project-icon">⚡</div>
+                        <div class="project-tags">
+                            <span class="tag tag-ai">Automation</span>
+                            <span class="tag tag-live">In Progress</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">n8n Intelligent Workflows</h3>
+                    <p class="project-desc">
+                        Building intelligent automation pipelines using n8n to connect AI agents, APIs, and data
+                        sources. Creating workflows that automate complex multi-step processes powered by LLMs.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-pill">n8n</span>
+                        <span class="tech-pill">REST APIs</span>
+                        <span class="tech-pill">AI Agents</span>
+                        <span class="tech-pill">Automation</span>
+                    </div>
+                    <div class="project-glow"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-wrapper">
+                <div class="skills-category glass-card" id="skills-programming">
+                    <div class="skills-cat-header">
+                        <span class="skills-cat-icon">💻</span>
+                        <h3>Programming & ML</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Python</span><span>85%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="85" style="--clr: #3b82f6"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Machine Learning</span><span>75%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="75" style="--clr: #8b5cf6"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>Data Analytics</span><span>70%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="70" style="--clr: #06b6d4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category glass-card" id="skills-web">
+                    <div class="skills-cat-header">
+                        <span class="skills-cat-icon">🌐</span>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>HTML</span><span>90%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="90" style="--clr: #f97316"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>CSS</span><span>85%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="85" style="--clr: #3b82f6"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>JavaScript</span><span>80%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="80" style="--clr: #eab308"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category glass-card" id="skills-cloud">
+                    <div class="skills-cat-header">
+                        <span class="skills-cat-icon">☁️</span>
+                        <h3>Cloud & Tools</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>AWS Fundamentals</span><span>72%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="72" style="--clr: #f59e0b"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>n8n Automation</span><span>70%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="70" style="--clr: #10b981"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label">
+                                <span>AI/LLM Agents</span><span>68%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="68" style="--clr: #8b5cf6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category glass-card" id="skills-soft">
+                    <div class="skills-cat-header">
+                        <span class="skills-cat-icon">🤝</span>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill">Problem Solving</div>
+                        <div class="soft-skill">Teamwork</div>
+                        <div class="soft-skill">Communication</div>
+                        <div class="soft-skill">Research</div>
+                        <div class="soft-skill">Critical Thinking</div>
+                        <div class="soft-skill">Adaptability</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Icons Marquee -->
+            <div class="tech-marquee">
+                <div class="marquee-track">
+                    <span>Python</span><span>•</span>
+                    <span>JavaScript</span><span>•</span>
+                    <span>HTML/CSS</span><span>•</span>
+                    <span>Machine Learning</span><span>•</span>
+                    <span>AWS</span><span>•</span>
+                    <span>n8n</span><span>•</span>
+                    <span>OpenCV</span><span>•</span>
+                    <span>Data Analytics</span><span>•</span>
+                    <span>AI Agents</span><span>•</span>
+                    <span>LLMs</span><span>•</span>
+                    <span>Python</span><span>•</span>
+                    <span>JavaScript</span><span>•</span>
+                    <span>HTML/CSS</span><span>•</span>
+                    <span>Machine Learning</span><span>•</span>
+                    <span>AWS</span><span>•</span>
+                    <span>n8n</span><span>•</span>
+                    <span>OpenCV</span><span>•</span>
+                    <span>Data Analytics</span><span>•</span>
+                    <span>AI Agents</span><span>•</span>
+                    <span>LLMs</span><span>•</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== INTERNSHIPS SECTION ===== -->
+    <section class="section section-alt" id="internships">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Internships & <span class="gradient-text">Certifications</span></h2>
+            </div>
+            <div class="timeline">
+
+                <div class="timeline-item" id="internship-aws">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-logo">☁️</div>
+                            <div>
+                                <h3>AWS Cloud Internship</h3>
+                                <span class="timeline-org">AICTE Government Platform</span>
+                            </div>
+                        </div>
+                        <p>Completed a government-recognized AWS Cloud internship under the AICTE platform, gaining
+                            hands-on knowledge of cloud architectures, S3, EC2, Lambda, and fundamental AWS services.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="tech-pill">AWS</span>
+                            <span class="tech-pill">Cloud Architecture</span>
+                            <span class="tech-pill">EC2</span>
+                            <span class="tech-pill">S3</span>
+                        </div>
+                        <div class="timeline-badge">🏆 Certified</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" id="internship-tata">
+                    <div class="timeline-dot timeline-dot-purple"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-logo">📊</div>
+                            <div>
+                                <h3>Data Analytics Virtual Internship</h3>
+                                <span class="timeline-org">Tata Group</span>
+                            </div>
+                        </div>
+                        <p>Completed Tata Group's prestigious virtual internship program focused on Data Analytics,
+                            working with real-world datasets, visualization techniques, and business intelligence tools.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="tech-pill">Data Analytics</span>
+                            <span class="tech-pill">Visualization</span>
+                            <span class="tech-pill">Business Intelligence</span>
+                        </div>
+                        <div class="timeline-badge">🏆 Certified</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Certifications -->
+            <div class="certs-section">
+                <h3 class="certs-title">Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-card glass-card" id="cert-aws">
+                        <div class="cert-icon">☁️</div>
+                        <h4>AWS Internship Certificate</h4>
+                        <p>AICTE Government Platform</p>
+                    </div>
+                    <div class="cert-card glass-card" id="cert-tata">
+                        <div class="cert-icon">📊</div>
+                        <h4>Tata Data Analytics</h4>
+                        <p>Virtual Internship Certificate</p>
+                    </div>
+                    <div class="cert-card glass-card" id="cert-others">
+                        <div class="cert-icon">🎖️</div>
+                        <h4>Multiple Technical Certs</h4>
+                        <p>Various Learning Platforms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p class="section-subtitle">Whether you have a project idea, collaboration opportunity, or just want to
+                    chat about AI — I'm always open!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <a href="tel:9704381790" class="contact-card glass-card" id="contact-phone">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9704381790</p>
+                        </div>
+                    </a>
+                    <a href="mailto:gurumadhukgm@gmail.com" class="contact-card glass-card" id="contact-email">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>gurumadhukgm@gmail.com</p>
+                        </div>
+                    </a>
+                    <div class="contact-card glass-card" id="contact-location">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nandyal, Andhra Pradesh</p>
+                        </div>
+                    </div>
+                    <a href="https://www.linkedin.com/in/guru-madhu-kakarla-065979324" target="_blank"
+                        class="contact-card glass-card" id="contact-linkedin">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>guru-madhu-kakarla</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="contact-form-wrapper glass-card" id="contact-form-section">
+                    <h3>Send a Message</h3>
+                    <p class="form-note">💌 Messages go directly to <strong>gurumadhukgm@gmail.com</strong></p>
+                    <!-- 
+                      FORMSPREE SETUP (One-time, Free):
+                      1. Go to https://formspree.io/
+                      2. Sign up with gurumadhukgm@gmail.com
+                      3. Create a new form → copy your Form ID
+                      4. Replace YOUR_FORM_ID below with that ID
+                      Example: action="https://formspree.io/f/xpwzabcd"
+                    -->
+                    <form class="contact-form" id="contact-form" action="https://formspree.io/f/gurumadhukgm@gmail.com"
+                        method="POST" onsubmit="handleSubmit(event)">
+                        <input type="hidden" name="_subject" value="New Portfolio Message from Website!" />
+                        <input type="hidden" name="_replyto" id="reply-email" value="" />
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required
+                                autocomplete="off" />
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required
+                                autocomplete="off" oninput="document.getElementById('reply-email').value=this.value" />
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                            Send Message 🚀
+                        </button>
+                    </form>
+                    <div class="form-success" id="form-success" style="display:none;">
+                        <div class="success-icon">✅</div>
+                        <h4>Message Sent!</h4>
+                        <p>Thanks for reaching out. I'll reply to your email soon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">GK<span class="dot">.</span></div>
+            <p class="footer-tagline">Building AI-powered futures, one commit at a time.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/guru-madhu-kakarla-065979324" target="_blank"
+                    id="footer-linkedin">LinkedIn</a>
+                <a href="https://github.com/madhu16262223" target="_blank" id="footer-github">GitHub</a>
+                <a href="mailto:gurumadhukgm@gmail.com" id="footer-email">Email</a>
+            </div>
+            <p class="footer-copy">© 2026 Gurumadhu Kakarla · Made with ❤️ & lots of ☕</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
